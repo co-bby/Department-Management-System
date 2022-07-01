@@ -23,3 +23,4 @@
 
 ![class diagram](https://github.com/co-bby/Department-Management-System/blob/master/uml%20diagram.png?raw=true)
 
+![UseCase Diagram](https://github.com/co-bby/Department-Management-System/blob/master/useCasediagram.png?raw=true)
