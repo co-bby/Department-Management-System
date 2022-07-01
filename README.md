@@ -1,18 +1,25 @@
-## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+# Department Management System
 
-## Folder Structure
+ A Java CLI application for managing students in a department. This was a Software engineering class assignment
 
-The workspace contains two folders by default, where:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Functional Requirements
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+* A list of all courses, with the number of enrolled students, existing in the department
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+* A list of all courses, with their assigned instructor(s)
+*  A list of all instructors, with their types, in the department
+* A list of all students, with their full/part-time status
+* A list of all cancelled courses
+* A list of instructors with their salaries (broken down into base, bonus and total)
+* The courses and grades of an individual student
+* A list of students on academic probation
 
-## Dependency Management
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+
+
+## UML DIAGRAMS
+
+![class diagram](https://github.com/co-bby/Department-Management-System/blob/master/uml%20diagram.png?raw=true)
+
