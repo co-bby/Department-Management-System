@@ -1,14 +1,14 @@
-import java.util.ArrayList;
+
 
 public class Instructor extends Person{
 
-
-    public int totalCoursesTaught;
+//number of course taught by an instructor
+    public int totalCoursesTaught =6;
 
 //    get an Instructor and their type base on Conditions for Q 3.3
-    public void instructorAndType( String names, int totalCoursesTaught){
+    public void instructorAndType( ){
 //        part Time lecturer
-        if(this.totalCoursesTaught <= 2 & this.totalCoursesTaught >=0){
+        if(this.totalCoursesTaught <= 2 & this.totalCoursesTaught >0){
             System.out.println(this.names + " "+ "is a "+ " part time lecturer");
         }
 //        full time lecturer
@@ -25,7 +25,7 @@ public class Instructor extends Person{
     public static void main(String[] args) {
 Instructor InstructorObj = new Instructor();
 
-InstructorObj.instructorAndType(InstructorObj.names, InstructorObj.totalCoursesTaught);
+InstructorObj.instructorAndType();
     }
 
 

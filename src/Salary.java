@@ -10,7 +10,7 @@ public class Salary {
     //Get an Instructor salary based on number of courses taught
      public void instructorSalary(){
 //          Part Time lecturer salary
-          if(instructorObj.totalCoursesTaught<=2 && instructorObj.totalCoursesTaught>=0){
+          if(instructorObj.totalCoursesTaught<=2 && instructorObj.totalCoursesTaught>0){
               System.out.println("Total Salary = " +" " +baseSalary);
 
           }
@@ -24,7 +24,7 @@ public class Salary {
              System.out.println(" Base Salary = " +" "  +"GHS"+baseSalary+ " " + "Bonus Salary="+" " +
                      "GHS" +fullTimeBonusSalary+" "+
                      "Total Salary ="+" "+
-                     "GHS"+ baseSalary+ +fullTimeBonusSalary);
+                     "GHS"+ baseSalary+ fullTimeBonusSalary);
 
          }
 //             get a Professor Salary
@@ -32,7 +32,7 @@ public class Salary {
         System.out.println(" Base Salary = " +" "  +"GHS"+baseSalary+ " " + "Bonus Salary="+" " +
                 "GHS" +professorBonusSalary+" "+
                 "Total Salary ="+" "+
-                "GHS"+ baseSalary+ +professorBonusSalary);
+                "GHS"+ baseSalary+ professorBonusSalary);
 
     }
 
